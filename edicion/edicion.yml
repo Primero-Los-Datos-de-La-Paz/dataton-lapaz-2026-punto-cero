@@ -115,6 +115,7 @@ desafios:
       unidad: "SMCI, por medio de la DICI y la UITD, con la UIIEM"
       sigla: SMCI
       codeowner: "@RESPONSABLE-D1"
+    paquete_interno: false
     fuente: "Convocatoria (pregunta, indicadores, nivel); Anexo 2 §5 (alcance y responsable)"
   - id: D2
     slug: servicios-urbanos
@@ -127,6 +128,7 @@ desafios:
       unidad: "Otras secretarías municipales y empresas de servicios (participación planificada para 2027)"
       sigla: null
       codeowner: "@RESPONSABLE-D2"
+    paquete_interno: false
     fuente: "Convocatoria; Anexo 2 §5"
   - id: D3
     slug: oportunidades-bienestar
@@ -139,6 +141,7 @@ desafios:
       unidad: "Otras secretarías municipales y entidades nacionales (participación planificada para 2027)"
       sigla: null
       codeowner: "@RESPONSABLE-D3"
+    paquete_interno: false
     fuente: "Convocatoria; Anexo 2 §5"
   - id: D4
     slug: sostenibilidad-resiliencia
@@ -151,6 +154,7 @@ desafios:
       unidad: "Otras secretarías municipales, empresas de servicios y entidades nacionales (participación planificada para 2027)"
       sigla: null
       codeowner: "@RESPONSABLE-D4"
+    paquete_interno: false
     fuente: "Convocatoria; Anexo 2 §5 (tipo SUSTAINABLE y alcance)"
   - id: D5
     slug: educacion-urbana
@@ -163,6 +167,7 @@ desafios:
       unidad: "Dirección de Educación y Desarrollo Humano (DEDH), punto focal"
       sigla: DEDH
       codeowner: "@RESPONSABLE-D5"
+    paquete_interno: true   # BD EDU DAT en el repositorio de paquetes internos
     fuente: "Convocatoria (fichas y niveles); Anexo 2 §5 y §6 (alcance y responsable)"
 
 rubrica:

@@ -29,3 +29,9 @@ paquetes/transversal/data/raw/geoBoundaries-BOL-ADM3.geojson
 paquetes/transversal/data/raw/bol_ppp_2020.tif
 paquetes/D5-educacion-urbana/data/raw/mde_Unidades_Educativas_2020.geojson
 *.parcial
+
+# Datos de equipos y evaluaciones: contienen usuarios y contactos. No se versionan.
+edicion/equipos.csv
+edicion/equipos_creados.csv
+entregas-clonadas/
+evaluacion/informes/
