@@ -1,0 +1,92 @@
+id,desafio,categoria,tipo,nombre,disponibilidad_bolivia,disponibilidad_la_paz,fuentes_candidatas,brecha,paginas_convocatoria,nota
+D1-01,D1,Infraestructura TIC,SMART,Acceso a Internet en los hogares,Alta,Alta/Media,INE Censo 2024,extracción municipal y periodo comparable,2-3,
+D1-02,D1,Infraestructura TIC,SMART,Suscripciones de banda ancha fija,Alta,Media,ATT,desagregación municipal,2-3,
+D1-03,D1,Infraestructura TIC,SMART,Suscripciones de banda ancha inalámbrica,Alta,Media/Baja,ATT y operadores,territorialización,2-3,
+D1-04,D1,Infraestructura TIC,SMART,Cobertura de banda ancha inalámbrica,Media/Alta,Media,ATT y operadores,cobertura geoespacial 3G/4G del municipio,2-3,
+D1-05,D1,Infraestructura TIC,SMART,Disponibilidad de Wi‑Fi en áreas públicas,Media/Baja,Media/Alta,Chukuta Online,"inventario, ubicación y estado operativo",2-3,
+D1-06,D1,Sector Público,SMART,Datos abiertos,Alta,Alta,gob.bo y Portal de Datos Abiertos GAMLP,,2-3,
+D1-07,D1,Sector Público,SMART,Gobierno electrónico,Alta,Alta,"AGETIC, gob.bo, iGOB 24/7 y servicios en línea",inventario completo de servicios,2-3,
+D1-08,D1,Sector Público,SMART,Contratación electrónica del sector público,Alta,Alta/Media,SICOES,reconstruir numerador y denominador aplicable,2-3,
+D2-01,D2,Electricidad,SMART,Medidores de electricidad inteligentes,,,,,3-4,
+D2-02,D2,Electricidad,SMART,Monitoreo del suministro eléctrico,,,,,3-4,
+D2-03,D2,Electricidad,SMART,Penetración de la respuesta a la demanda,,,,,3-4,
+D2-04,D2,Agua y saneamiento,SMART,Monitoreo del suministro de agua,,,,,3-4,
+D2-05,D2,Agua y saneamiento,SMART,Medidores de agua inteligentes,,,,,3-4,
+D2-06,D2,Drenaje,SMART,Monitoreo del drenaje y aguas pluviales,,,,,3-4,
+D2-07,D2,Transporte,SMART,Información dinámica del transporte público,,,,,3-4,
+D2-08,D2,Transporte,SMART,Monitoreo del tráfico,,,,,3-4,
+D2-09,D2,Transporte,SMART,Control de intersecciones inteligentes,,,,,3-4,
+D2-10,D2,Edificios,SMART,Gestión integrada de edificios públicos,,,,,3-4,
+D2-11,D2,Educación,SMART,Acceso TIC a las escuelas,,,,,3-4,
+D2-12,D2,Salud,SMART,Registros médicos electrónicos,,,,,3-4,
+D3-01,D3,Economía,ESTRUCTURAL,Acceso a electricidad,,,,,4-5,
+D3-02,D3,Economía,ESTRUCTURAL,Gasto en Investigación y Desarrollo,,,,,4-5,
+D3-03,D3,Economía,ESTRUCTURAL,Patentes,,,,,4-5,
+D3-04,D3,Economía,ESTRUCTURAL,Frecuencia de interrupciones del sistema eléctrico,,,,,4-5,
+D3-05,D3,Economía,ESTRUCTURAL,Duración de interrupciones del sistema eléctrico,,,,,4-5,
+D3-06,D3,Economía,ESTRUCTURAL,Tasa de desempleo,,,,,4-5,
+D3-07,D3,Economía,ESTRUCTURAL,Tasa de empleo juvenil,,,,,4-5,
+D3-08,D3,Economía,ESTRUCTURAL,Pequeñas y medianas empresas,,,,,4-5,
+D3-09,D3,Economía,ESTRUCTURAL,Empleo en sector TIC,,,,,4-5,
+D3-10,D3,Economía,ESTRUCTURAL,Empleo en sector turismo,,,,,4-5,
+D3-11,D3,Sociedad y Cultura,ESTRUCTURAL,Matriculación escolar,,,,,4-5,
+D3-12,D3,Sociedad y Cultura,ESTRUCTURAL,Títulos universitarios,,,,,4-5,
+D3-13,D3,Sociedad y Cultura,ESTRUCTURAL,Alfabetización de adultos,,,,,4-5,
+D3-14,D3,Sociedad y Cultura,ESTRUCTURAL,Esperanza de vida,,,,,4-5,
+D3-15,D3,Sociedad y Cultura,ESTRUCTURAL,Mortalidad materna,,,,,4-5,
+D3-16,D3,Sociedad y Cultura,ESTRUCTURAL,Médicos,,,,,4-5,
+D3-17,D3,Sociedad y Cultura,ESTRUCTURAL,Servicio de policía,,,,,4-5,
+D3-18,D3,Sociedad y Cultura,ESTRUCTURAL,Servicio de bomberos,,,,,4-5,
+D3-19,D3,Sociedad y Cultura,ESTRUCTURAL,Tasa de crímenes violentos,,,,,4-5,
+D3-20,D3,Sociedad y Cultura,ESTRUCTURAL,Fatalidades por accidentes de tránsito,,,,,4-5,
+D3-21,D3,Sociedad y Cultura,ESTRUCTURAL,Equidad de género en ingresos,,,,,4-5,
+D3-22,D3,Sociedad y Cultura,ESTRUCTURAL,Desigualdad en la distribución de ingresos,,,,,4-5,
+D3-23,D3,Sociedad y Cultura,ESTRUCTURAL,Gasto en patrimonio cultural,,,,,4-5,
+D3-24,D3,Sociedad y Cultura,ESTRUCTURAL,Asentamientos informales,,,,,4-5,
+D3-25,D3,Sociedad y Cultura,ESTRUCTURAL,Situación de pobreza,,,,,4-5,
+D3-26,D3,Sociedad y Cultura,ESTRUCTURAL,Participación electoral,,,,,4-5,
+D3-27,D3,Sociedad y Cultura,ESTRUCTURAL,Camas de internación hospitalaria,,,,,4-5,
+D3-28,D3,Sociedad y Cultura,ESTRUCTURAL,Cobertura de salud pública y seguros de salud,,,,,4-5,
+D3-29,D3,Sociedad y Cultura,ESTRUCTURAL,Infraestructura cultural disponible,,,,,4-5,
+D3-30,D3,Sociedad y Cultura,ESTRUCTURAL,Gasto en vivienda,,,,,4-5,
+D3-31,D3,Sociedad y Cultura,ESTRUCTURAL,Cuidado de niños,,,,,4-5,
+D3-32,D3,Sociedad y Cultura,ESTRUCTURAL,Tiempo de respuesta de servicios de emergencia,,,,,4-5,
+D4-01,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Suministro básico de agua,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-02,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Suministro de agua potable,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-03,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Pérdida del suministro de agua,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-04,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Recolección de aguas residuales,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-05,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Saneamiento doméstico,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-06,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Recolección de residuos sólidos,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-07,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Red de transporte público,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-08,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Red de bicicletas,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-09,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Acceso al transporte público,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-10,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Modalidad de transporte,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-11,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Tiempo de viaje,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-12,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Bicicletas compartidas,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-13,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Vehículos compartidos,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-14,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Vehículos de bajas emisiones,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-15,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Infraestructura peatonal,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-16,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Planificación espacial,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-17,D4,Infraestructura y movilidad sostenible,SOSTENIBLE,Sostenibilidad de edificios públicos,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-18,D4,Medio Ambiente,SOSTENIBLE,Calidad del agua potable,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-19,D4,Medio Ambiente,SOSTENIBLE,Consumo de agua doméstica,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-20,D4,Medio Ambiente,SOSTENIBLE,Consumo de agua dulce,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-21,D4,Medio Ambiente,SOSTENIBLE,Tratamiento de aguas residuales,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-22,D4,Medio Ambiente,SOSTENIBLE,Energía renovable,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-23,D4,Medio Ambiente,SOSTENIBLE,Consumo de electricidad,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-24,D4,Medio Ambiente,SOSTENIBLE,Energía térmica,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-25,D4,Medio Ambiente,SOSTENIBLE,Energía en edificios,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-26,D4,Medio Ambiente,SOSTENIBLE,Contaminación del aire,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-27,D4,Medio Ambiente,SOSTENIBLE,Emisiones de GEI,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-28,D4,Medio Ambiente,SOSTENIBLE,Tratamiento de residuos sólidos,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-29,D4,Medio Ambiente,SOSTENIBLE,Áreas verdes,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-30,D4,Medio Ambiente,SOSTENIBLE,Exposición a CEM,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-31,D4,Medio Ambiente,SOSTENIBLE,Acceso a áreas verdes,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-32,D4,Medio Ambiente,SOSTENIBLE,Áreas protegidas,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-33,D4,Medio Ambiente,SOSTENIBLE,Áreas recreacionales,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-34,D4,Medio Ambiente,SOSTENIBLE,Exposición a ruido,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-35,D4,Resiliencia,SOSTENIBLE,Muertes por desastres naturales,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-36,D4,Resiliencia,SOSTENIBLE,Pérdidas por desastres,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-37,D4,Resiliencia,SOSTENIBLE,Producción local de alimentos,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-38,D4,Resiliencia,SOSTENIBLE,Planes de resiliencia,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula
+D4-39,D4,Resiliencia,SOSTENIBLE,Población en zonas de riesgo,,,,,5-6,tipo según Anexo 2 §5 (SUSTAINABLE); la convocatoria no lo rotula

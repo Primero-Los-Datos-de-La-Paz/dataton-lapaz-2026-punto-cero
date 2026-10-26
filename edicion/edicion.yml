@@ -1,0 +1,194 @@
+# edicion.yml — Datatón Urbano Punto Cero (La Paz, 2026)
+#
+# Este es el único archivo donde se escriben nombres, fechas, sede, desafíos,
+# pesos de la rúbrica, responsables, contacto y reglas de visibilidad.
+# Los demás archivos toman esos datos de aquí con:
+#
+#     python -m dataton regenerar
+#
+# Fuentes: la convocatoria manda. El Anexo 2 (plan por resultados) completa lo
+# que la convocatoria no dice, sin contradecirla. Ver contexto/extraidos/DIFERENCIAS.md
+# en el espacio de construcción.
+
+version_esquema: 1
+
+edicion:
+  id: dataton-lapaz-2026-punto-cero
+  nombre: "Datatón Urbano Punto Cero"
+  programa: "La Paz data-first: Primero los datos paceños"
+  numero: 1
+  anio: 2026
+  descripcion: >-
+    Primera edición piloto del programa «La Paz data-first: Primero los datos paceños»
+    del Gobierno Autónomo Municipal de La Paz (GAMLP), en la Semana de La Paz Inteligente.
+    Es un datatón de preparación de datos: no se construyen aplicaciones. Se busca el activo
+    de datos más confiable, comprensible, trazable y reutilizable. No hay premio monetario:
+    los equipos reciben reconocimiento público y sus aportes validados pueden incorporarse al
+    Portafolio Paceño de Preparación de Datos Urbanos, con mención de su autoría.
+  ciudad: "La Paz"
+  pais: "Bolivia"
+  institucion:
+    nombre: "Gobierno Autónomo Municipal de La Paz"
+    sigla: GAMLP
+  organizadores:
+    - {nombre: "Secretaría Municipal de Ciudad Inteligente", sigla: SMCI, rol: "Organiza"}
+    - {nombre: "Dirección de Innovación y Ciudad Inteligente", sigla: DICI, rol: "Organiza y aprueba"}
+    - {nombre: "Unidad de Ciudad Inteligente y Laboratorios Urbanos", sigla: UCILU, rol: "Ejecuta"}
+    - {nombre: "Unidad de Innovación y Transformación Digital", sigla: UITD, rol: "Ejecuta"}
+  roles:   # fuente: Anexo 2 §1 y §6; CLAUDE.md (deslinde)
+    - {rol: "Ejecución del datatón", quien: "UCILU y UITD, con aprobación de la DICI"}
+    - {rol: "Convocatoria, apertura, comunidad y presentación", quien: "Unidad de Ciudad Inteligente y Laboratorios Urbanos (UCILU)"}
+    - {rol: "Paquetes de datos, entorno de trabajo y medición antes y después", quien: "Unidad de Innovación y Transformación Digital (UITD)"}
+    - {rol: "Responsabilidad sobre los datos", quien: "Cada secretaría es responsable de sus datos (ver la tabla de responsables por desafío)"}
+    - {rol: "Revisión de las fichas de indicadores antes de cualquier uso oficial", quien: "Unidad de Investigación, Información y Estadística Municipal (UIIEM)"}
+    - {rol: "Reglas y privacidad", quien: "Dirección de Asuntos Jurídicos (DAJ), con la UITD"}
+    - {rol: "Revisión técnica, privacidad y entorno seguro", quien: "Dirección de Tecnologías (DT)"}
+  version_repositorio: "0.1.0"
+  fuentes:
+    - {documento: "Convocatoria al Dataton Punto Cero (PDF)", sha256: "947b8a70323b712a5eec2bef79cdd45415f99ccfcf150c5049eabd70b2c0c137", prioridad: 1}
+    - {documento: "Anexo 2: Plan por resultados del dataton punto cero (versión inicial para gabinete, 19/10/2026)", sha256: "af7fa6d7dc2145019e3156ffff84559290ceea1e2d7ceea813845efaec1e42b7", prioridad: 2}
+
+github:
+  organizacion: Primero-Los-Datos-de-La-Paz
+  repositorios:
+    plantilla: dataton-urbano-plantilla
+    equipo_plantilla: dataton-equipo-plantilla
+    edicion: dataton-lapaz-2026-punto-cero
+    paquetes_internos: dataton-lapaz-2026-paquetes-internos
+
+sede:
+  nombre: "Casa de la Cultura"
+  direccion: null
+  fuente: "Anexo 2 (nota inicial y §8); la convocatoria no indica sede"
+
+calendario:
+  - id: inscripciones
+    fecha_inicio: 2026-10-19
+    fecha_fin: null
+    actividad: "Inicio de inscripciones."
+    fuente: "Convocatoria, Cronograma"
+  - id: apertura
+    fecha_inicio: 2026-10-26
+    fecha_fin: null
+    actividad: "Inicio del datatón: apertura, orientación sobre datos, presentación de desafíos y formación de equipos."
+    fuente: "Convocatoria, Cronograma y Qué recibirás"
+  - id: trabajo
+    fecha_inicio: 2026-10-26
+    fecha_fin: 2026-10-29
+    actividad: "Trabajo de equipos, preparación de datos y mentorías."
+    fuente: "Convocatoria, Cronograma"
+  - id: clinica
+    fecha_inicio: 2026-10-28
+    fecha_fin: null
+    actividad: "Única clínica de datos con mentores: calidad, documentación, información geográfica y privacidad."
+    fuente: "Convocatoria, Qué recibirás"
+  - id: presentacion
+    fecha_inicio: 2026-10-30
+    fecha_fin: null
+    actividad: "Presentación de resultados."
+    fuente: "Convocatoria, Cronograma"
+  - id: reconocimiento
+    fecha_inicio: 2026-10-31
+    fecha_fin: null
+    actividad: "Reconocimiento a los equipos en el Summit de innovadores."
+    fuente: "Anexo 2 §8; no figura en la convocatoria"
+  - id: validacion
+    fecha_inicio: 2026-11-01
+    fecha_fin: 2026-11-13
+    actividad: "Validación de las mejoras por los responsables de los datos (Desafíos 1 y 5) y revisión de las fichas de indicadores por la UIIEM."
+    fuente: "Convocatoria («Noviembre»); fechas exactas del Anexo 2 §3, §7.2 y §8"
+  - id: informe
+    fecha_inicio: 2026-11-30
+    fecha_fin: null
+    actividad: "Informe de aprendizaje a la SMCI y propuesta de datatones 2027 con las demás secretarías."
+    fuente: "Anexo 2 §1 y §8; no figura en la convocatoria"
+
+desafios:
+  - id: D1
+    slug: base-digital
+    titulo: "La base digital de una ciudad que funciona"
+    tipo_indicadores: SMART
+    n_indicadores: 8
+    alcance: "Preparación completa de la línea base"
+    nivel_esperado: "Documentado → Listo para tablero → Listo para verificar, según el indicador."
+    responsable_dato:
+      unidad: "SMCI, por medio de la DICI y la UITD, con la UIIEM"
+      sigla: SMCI
+      codeowner: "@RESPONSABLE-D1"
+    fuente: "Convocatoria (pregunta, indicadores, nivel); Anexo 2 §5 (alcance y responsable)"
+  - id: D2
+    slug: servicios-urbanos
+    titulo: "Servicios urbanos inteligentes para una ciudad que aprende"
+    tipo_indicadores: SMART
+    n_indicadores: 12
+    alcance: "Mapeo de fuentes y clasificación de servicios; preparación con las secretarías en 2027"
+    nivel_esperado: "Identificar qué servicios están: sin datos estructurados, digitalizados, monitoreados, interoperables o preparados para la analítica avanzada."
+    responsable_dato:
+      unidad: "Otras secretarías municipales y empresas de servicios (participación planificada para 2027)"
+      sigla: null
+      codeowner: "@RESPONSABLE-D2"
+    fuente: "Convocatoria; Anexo 2 §5"
+  - id: D3
+    slug: oportunidades-bienestar
+    titulo: "La estructura profunda de una ciudad de oportunidades y bienestar"
+    tipo_indicadores: ESTRUCTURAL
+    n_indicadores: 32
+    alcance: "Mapeo de fuentes y series; preparación con las secretarías en 2027"
+    nivel_esperado: "Identificado o documentado, priorizando consistencia y capacidad de actualización."
+    responsable_dato:
+      unidad: "Otras secretarías municipales y entidades nacionales (participación planificada para 2027)"
+      sigla: null
+      codeowner: "@RESPONSABLE-D3"
+    fuente: "Convocatoria; Anexo 2 §5"
+  - id: D4
+    slug: sostenibilidad-resiliencia
+    titulo: "Sostenibilidad para una ciudad que respira, se mueve y resiste"
+    tipo_indicadores: SOSTENIBLE
+    n_indicadores: 39
+    alcance: "Mapeo de fuentes, series y georreferenciación; preparación con las secretarías en 2027"
+    nivel_esperado: "Identificado → Documentado → Conectable, con énfasis en series históricas y georreferenciación."
+    responsable_dato:
+      unidad: "Otras secretarías municipales, empresas de servicios y entidades nacionales (participación planificada para 2027)"
+      sigla: null
+      codeowner: "@RESPONSABLE-D4"
+    fuente: "Convocatoria; Anexo 2 §5 (tipo SUSTAINABLE y alcance)"
+  - id: D5
+    slug: educacion-urbana
+    titulo: "Educación urbana para una ciudad que aprende"
+    tipo_indicadores: null
+    n_indicadores: null
+    alcance: "Preparación completa de la Ficha 5.1; documentación de la 5.2; inventario de la 5.3"
+    nivel_esperado: "Ficha 5.1: Conectable. Ficha 5.2: Depurado y documentado. Ficha 5.3: Identificado o documentado."
+    responsable_dato:
+      unidad: "Dirección de Educación y Desarrollo Humano (DEDH), punto focal"
+      sigla: DEDH
+      codeowner: "@RESPONSABLE-D5"
+    fuente: "Convocatoria (fichas y niveles); Anexo 2 §5 y §6 (alcance y responsable)"
+
+rubrica:
+  fuente: "Convocatoria, Cómo valoramos (coincide con el Anexo 2 §7.3)"
+  criterios:
+    - {id: calidad, nombre: "Calidad y consistencia del activo de datos", peso: 20}
+    - {id: documentacion, nombre: "Documentación y trazabilidad", peso: 20}
+    - {id: reproducibilidad, nombre: "Reproducibilidad", peso: 15}
+    - {id: cobertura, nombre: "Cobertura del desafío / KPI", peso: 15}
+    - {id: territorializacion, nombre: "Territorialización e interoperabilidad", peso: 10}
+    - {id: gobernanza, nombre: "Gobernanza y uso responsable", peso: 10}
+    - {id: utilidad, nombre: "Utilidad para decisiones y reutilización", peso: 10}
+
+contacto:
+  buzon_institucional: null   # DECISIÓN PENDIENTE: buzón institucional (no se usan correos ni teléfonos personales)
+  incidencias: true
+  nota: "Después de la clínica de datos, las consultas se atienden por escrito."
+
+visibilidad:
+  regla_general: "Todo repositorio nace privado. Solo pasa a público con aprobación explícita, repositorio por repositorio."
+  repositorios:
+    - {repositorio: plantilla, visibilidad_inicial: privado, visibilidad_prevista: público, condicion: "Aprobación explícita tras la revisión de calidad y privacidad."}
+    - {repositorio: equipo_plantilla, visibilidad_inicial: privado, visibilidad_prevista: público, condicion: "Aprobación explícita tras la revisión de calidad y privacidad."}
+    - {repositorio: edicion, visibilidad_inicial: privado, visibilidad_prevista: público, condicion: "Aprobación explícita; sin datos internos ni datos personales."}
+    - {repositorio: paquetes_internos, visibilidad_inicial: privado, visibilidad_prevista: privado, condicion: "Nunca se hace público."}
+  datos_internos:
+    - "Los datos internos en su forma original solo se guardan en el repositorio de paquetes internos."
+    - "Un dato interno solo sale de allí mediante la compuerta de liberación (docs/compuerta-de-liberacion.md)."
+    - "BD EDU DAT: el xlsx original nunca se publica. Con autorización de la DEDH, puede publicarse un derivado agregado a nivel de unidad educativa: generado por script desde el original, en formato abierto, sin metadatos de autor y sin posibles datos personales."

@@ -1,0 +1,28 @@
+# Quién revisa los cambios de cada carpeta.
+# Los nombres que empiezan con @RESPONSABLE- y @ORGANIZACION- son MARCADORES, no cuentas reales.
+# Se reemplazan solo cuando la institución designa formalmente a las personas o equipos de GitHub.
+
+# Por defecto, la organización del datatón.
+*                       @ORGANIZACION-DATATON
+
+# Configuración de la edición y evaluación.
+/edicion/               @ORGANIZACION-DATATON
+/evaluacion/            @ORGANIZACION-DATATON @ORGANIZACION-JURADO
+
+# Herramientas.
+/src/                   @ORGANIZACION-TECNOLOGIA
+/tests/                 @ORGANIZACION-TECNOLOGIA
+
+# Licencias y reglas.
+/LICENSE                @ORGANIZACION-JURIDICA
+/LICENSE-DATOS.md       @ORGANIZACION-JURIDICA
+/SECURITY.md            @ORGANIZACION-JURIDICA @ORGANIZACION-TECNOLOGIA
+
+# Paquetes de datos: cada responsable del dato revisa el suyo (generado desde edicion.yml).
+# dataton:codeowners
+/paquetes/D1-base-digital/ @RESPONSABLE-D1
+/paquetes/D2-servicios-urbanos/ @RESPONSABLE-D2
+/paquetes/D3-oportunidades-bienestar/ @RESPONSABLE-D3
+/paquetes/D4-sostenibilidad-resiliencia/ @RESPONSABLE-D4
+/paquetes/D5-educacion-urbana/ @RESPONSABLE-D5
+# /dataton

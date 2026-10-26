@@ -1,0 +1,14 @@
+# Archivo generado desde edicion/edicion.yml con `python -m dataton regenerar`. No lo edites a mano.
+cff-version: 1.2.0
+message: Si usas este repositorio, cítalo con estos datos.
+title: Datatón Urbano Punto Cero
+type: software
+authors:
+- name: Gobierno Autónomo Municipal de La Paz
+version: 0.1.0
+keywords:
+- datatón
+- datos abiertos
+- preparación de datos
+- ciudad inteligente
+repository-code: https://github.com/Primero-Los-Datos-de-La-Paz/dataton-lapaz-2026-punto-cero
