@@ -1,10 +1,32 @@
 # <!-- dataton:valor edicion.nombre -->Datatón Urbano Punto Cero<!-- /dataton -->
 
-Repositorio de un **datatón urbano de preparación de datos**. El objetivo no es construir aplicaciones: es dejar datos más confiables, comprensibles, trazables y reutilizables.
-
-> **¿Es la plantilla o una edición?** Si en el título de arriba dice "por definir", estás viendo la **plantilla**. Para crear tu propia edición, sigue [docs/nueva-edicion.md](docs/nueva-edicion.md).
-
 <!-- dataton:valor edicion.descripcion -->Primera edición piloto del programa «La Paz data-first: Primero los datos paceños» del Gobierno Autónomo Municipal de La Paz (GAMLP), en la Semana de La Paz Inteligente. Es un datatón de preparación de datos: no se construyen aplicaciones. Se busca el activo de datos más confiable, comprensible, trazable y reutilizable. No hay premio monetario: los equipos reciben reconocimiento público y sus aportes validados pueden incorporarse al Portafolio Paceño de Preparación de Datos Urbanos, con mención de su autoría.<!-- /dataton -->
+
+> **¿Es la plantilla o una edición?** Si en el título dice "por definir", estás viendo la **plantilla**. Para organizar tu propia edición, sigue [docs/nueva-edicion.md](docs/nueva-edicion.md).
+
+## Qué es
+
+Un **datatón urbano de preparación de datos**. Equipos con perfiles distintos trabajan durante unos días sobre datos reales de la ciudad para dejarlos más **confiables, comprensibles, trazables y reutilizables**.
+
+No se busca el proyecto más sofisticado, sino el mejor **activo de datos**: un conjunto de datos con su documentación, su procedencia y un procedimiento que otra persona pueda repetir.
+
+## Qué se hace y qué no
+
+| Sí se hace | No es necesario |
+|---|---|
+| Encontrar qué datos existen y quién responde por ellos | Construir aplicaciones |
+| Depurar, normalizar y validar conjuntos de datos | Tableros o visualizaciones sofisticadas |
+| Documentarlos: diccionario, procedencia, periodicidad y responsable | Modelos predictivos o de inteligencia artificial |
+| Relacionarlos con el territorio | Calcular indicadores oficiales sin validar |
+| Mapear qué datos necesita cada indicador | Estimar valores para llenar vacíos sin evidencia |
+| Dejar un procedimiento reproducible | Presentaciones sin un activo de datos reutilizable |
+
+## Empieza en 10 minutos
+
+1. Lee la tabla de **desafíos** (abajo) y elige uno con tu equipo.
+2. Abre el paquete de datos de tu desafío en [`paquetes/`](paquetes/). Lee su `README.md`, su `problemas-observados.md` y la medición "antes" de `linea-base/`.
+3. Sigue la [guía del participante](docs/guia-participante.md). Tiene dos rutas: con programación y sin programar.
+4. Entrega en el repositorio de tu equipo. Lo crea la organización.
 
 ## Calendario
 
@@ -14,6 +36,7 @@ Repositorio de un **datatón urbano de preparación de datos**. El objetivo no e
 | lunes 19 de octubre de 2026 | Inicio de inscripciones. |
 | lunes 26 de octubre de 2026 | Inicio del datatón: apertura, orientación sobre datos, presentación de desafíos y formación de equipos. |
 | del lunes 26 de octubre de 2026 al jueves 29 de octubre de 2026 | Trabajo de equipos, preparación de datos y mentorías. |
+| jueves 29 de octubre de 2026 | Cierre de entregas de los equipos, hasta las 23:59 (hora de Bolivia, UTC−4). |
 | miércoles 28 de octubre de 2026 | Única clínica de datos con mentores: calidad, documentación, información geográfica y privacidad. |
 | viernes 30 de octubre de 2026 | Presentación de resultados. |
 | sábado 31 de octubre de 2026 | Reconocimiento a los equipos en el Summit de innovadores. |
@@ -52,42 +75,37 @@ El nivel se mide con la [escala de preparación de 0 a 7](evaluacion/escala-prep
 | **Total** | **100 %** |
 <!-- /dataton -->
 
+La [rúbrica](edicion/rubrica.yml) explica qué se revisa en cada criterio y cómo se califica, de 0 a 4. Las herramientas automáticas reúnen evidencia; la nota la pone el jurado.
+
 ## Mapa del repositorio
 
 | Carpeta o archivo | Para qué sirve |
 |---|---|
-| [`edicion/`](edicion/) | `edicion.yml`: el único lugar donde se escriben fechas, pesos, desafíos y responsables |
+| [`edicion/`](edicion/) | `edicion.yml`: el único lugar donde se escriben fechas, pesos, desafíos y responsables. También la rúbrica |
 | [`catalogo/`](catalogo/) | Catálogo de fuentes de datos e indicadores |
-| [`paquetes/`](paquetes/) | Un paquete de datos por desafío, con ficha, diccionario, procedencia y reglas de uso |
-| [`evaluacion/`](evaluacion/) | Escala de preparación, rúbrica y documentos del jurado |
+| [`paquetes/`](paquetes/) | Un paquete de datos por desafío, con ficha, diccionario, procedencia, reglas de uso y medición "antes" |
+| [`evaluacion/`](evaluacion/) | Escala de preparación, hoja del jurado, acta de validación y declaración de conflictos |
+| [`docs/`](docs/) | Guías para participantes, responsables del dato, jurado, mentores y organizadores |
 | [`src/dataton/`](src/dataton/) | Herramientas: `python -m dataton <comando>` |
-| [`tests/`](tests/) | Pruebas automáticas de las herramientas |
-| [`docs/`](docs/) | Guías para participantes, responsables de datos, jurado, mentores y organizadores |
-| [`prompts/`](prompts/) | Instrucciones usadas para construir el repositorio con ayuda de un asistente |
+| [`tests/`](tests/) | Pruebas automáticas de las herramientas, con datos ficticios |
+| [`prompts/`](prompts/) | Cómo se construyó el repositorio con ayuda de un asistente |
 | [`LICENSE`](LICENSE) y [`LICENSE-DATOS.md`](LICENSE-DATOS.md) | Licencias del código y de los datos |
-| [`CONTRIBUTING.md`](CONTRIBUTING.md) | Cómo aportar |
-| [`GOVERNANCE.md`](GOVERNANCE.md) | Quién decide qué |
-| [`SECURITY.md`](SECURITY.md) | Qué hacer si se sube un dato personal por error |
-| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Código de conducta |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md), [`GOVERNANCE.md`](GOVERNANCE.md), [`SECURITY.md`](SECURITY.md), [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Cómo aportar, quién decide qué, qué hacer ante un dato personal y código de conducta |
 | [`CITATION.cff`](CITATION.cff) | Cómo citar este repositorio |
 
-## Instalar las herramientas
+## Instalar las herramientas (opcional)
 
-Se necesita Python 3.11 o más reciente.
+Se necesita Python 3.11 o más reciente. En Windows, sigue [docs/windows.md](docs/windows.md).
 
 ```bash
 python -m venv .venv
-# macOS o Linux:
 source .venv/bin/activate
-# Windows (PowerShell):
-.venv\Scripts\Activate.ps1
-
 pip install -r requirements.txt
 pip install -e .
 python -m dataton demo        # debe terminar con OK
 ```
 
-Guía para Windows: [docs/windows.md](docs/windows.md). Qué mide cada comando: [docs/metricas.md](docs/metricas.md).
+Qué mide cada comando: [docs/metricas.md](docs/metricas.md). Dudas frecuentes: [docs/preguntas-frecuentes.md](docs/preguntas-frecuentes.md).
 
 ## Contacto
 

@@ -25,6 +25,7 @@ edicion:
     de datos más confiable, comprensible, trazable y reutilizable. No hay premio monetario:
     los equipos reciben reconocimiento público y sus aportes validados pueden incorporarse al
     Portafolio Paceño de Preparación de Datos Urbanos, con mención de su autoría.
+  reconocimiento: "No hay premio monetario. Los equipos reciben reconocimiento público (en el Summit de innovadores) y sus aportes validados podrán incorporarse al Portafolio Paceño de Preparación de Datos Urbanos, con mención de su autoría."
   ciudad: "La Paz"
   pais: "Bolivia"
   institucion:
@@ -47,6 +48,28 @@ edicion:
   fuentes:
     - {documento: "Convocatoria al Dataton Punto Cero (PDF)", sha256: "947b8a70323b712a5eec2bef79cdd45415f99ccfcf150c5049eabd70b2c0c137", prioridad: 1}
     - {documento: "Anexo 2: Plan por resultados del dataton punto cero (versión inicial para gabinete, 19/10/2026)", sha256: "af7fa6d7dc2145019e3156ffff84559290ceea1e2d7ceea813845efaec1e42b7", prioridad: 2}
+
+# Qué unidad cumple cada función (los textos de gobernanza, seguridad y guías los toman de aquí).
+areas:
+  organizacion: "Unidad de Ciudad Inteligente y Laboratorios Urbanos (UCILU) y Unidad de Innovación y Transformación Digital (UITD)"
+  aprobacion: "Dirección de Innovación y Ciudad Inteligente (DICI)"
+  juridica: "Dirección de Asuntos Jurídicos (DAJ)"
+  tecnologia: "Dirección de Tecnologías (DT)"
+  estadistica: "Unidad de Investigación, Información y Estadística Municipal (UIIEM)"
+
+# Matriz RACI: R hace, A responde (una sola), C es consultada, I es informada.
+# PROPUESTA para validar internamente en el GAMLP (fuentes: Anexo 2 §1 y §6; deslinde de CLAUDE.md).
+raci:
+  - {actividad: "Convocatoria, apertura, comunidad y presentación", R: "UCILU", A: "DICI", C: "UITD", I: "SMCI"}
+  - {actividad: "Paquetes de datos, entorno de trabajo y medición antes/después", R: "UITD", A: "DICI", C: "Responsables del dato", I: "UCILU"}
+  - {actividad: "Responsabilidad sobre cada dato", R: "Secretaría o unidad productora (D1: SMCI por medio de la DICI y la UITD; D5: DEDH)", A: "Secretaría responsable del dato", C: "UITD", I: "UCILU"}
+  - {actividad: "Validación o rechazo de cada mejora", R: "Responsable del dato", A: "Responsable del dato", C: "UITD", I: "UCILU y el equipo"}
+  - {actividad: "Revisión de las fichas de indicadores antes de cualquier uso oficial", R: "UIIEM", A: "UIIEM", C: "Responsables del dato", I: "DICI"}
+  - {actividad: "Reglas de uso, licencias y privacidad", R: "DAJ con la UITD", A: "DAJ", C: "DT", I: "DICI"}
+  - {actividad: "Revisión técnica y entorno seguro", R: "DT", A: "DT", C: "UITD", I: "DICI"}
+  - {actividad: "Valoración de las entregas", R: "Jurado", A: "DICI", C: "UCILU", I: "Equipos"}
+  - {actividad: "Publicación de repositorios y de datos liberados", R: "UITD", A: "DICI", C: "DAJ y DT", I: "UCILU"}
+  - {actividad: "Respuesta a un incidente con datos personales", R: "UITD", A: "DICI", C: "DAJ y DT", I: "Responsable del dato"}
 
 github:
   organizacion: Primero-Los-Datos-de-La-Paz
@@ -77,6 +100,12 @@ calendario:
     fecha_fin: 2026-10-29
     actividad: "Trabajo de equipos, preparación de datos y mentorías."
     fuente: "Convocatoria, Cronograma"
+  - id: cierre_entregas
+    fecha_inicio: 2026-10-29
+    fecha_fin: null
+    fecha_hora_limite: "2026-10-29T23:59:00-04:00"   # la usa `python -m dataton congelar`
+    actividad: "Cierre de entregas de los equipos, hasta las 23:59 (hora de Bolivia, UTC−4)."
+    fuente: "Decisión de la persona usuaria (26/10/2026); dentro del periodo de trabajo de la convocatoria (26 al 29/10)"
   - id: clinica
     fecha_inicio: 2026-10-28
     fecha_fin: null

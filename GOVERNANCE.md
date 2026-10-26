@@ -1,13 +1,35 @@
 # Gobernanza
 
-Este documento dice quién decide qué en el datatón. Los nombres de las unidades salen de `edicion/edicion.yml`.
+Quién decide qué en el datatón. Los nombres de las unidades salen de `edicion/edicion.yml`.
 
 ## Principios
 
 - **Cada responsable del dato decide sobre sus datos.** La organización del datatón no valida ni modifica datos de otras áreas.
-- **Toda mejora se valida o se rechaza** con un motivo escrito antes de incorporarse al catálogo institucional.
-- **Las fichas de indicadores no son cifras oficiales.** Las revisa la unidad de estadística antes de cualquier uso oficial.
-- **La privacidad y las reglas de uso** las revisan las áreas jurídica y de tecnología.
+- **Toda mejora se acepta o se rechaza con un motivo escrito** antes de incorporarse al catálogo institucional.
+- **Las fichas de indicadores no son cifras oficiales.** Antes de cualquier uso oficial las revisa: <!-- dataton:valor areas.estadistica -->Unidad de Investigación, Información y Estadística Municipal (UIIEM)<!-- /dataton -->.
+- **Las reglas de uso, las licencias y la privacidad** las revisan <!-- dataton:valor areas.juridica -->Dirección de Asuntos Jurídicos (DAJ)<!-- /dataton --> y <!-- dataton:valor areas.tecnologia -->Dirección de Tecnologías (DT)<!-- /dataton -->.
+- **Ejecución del datatón:** <!-- dataton:valor areas.organizacion -->Unidad de Ciudad Inteligente y Laboratorios Urbanos (UCILU) y Unidad de Innovación y Transformación Digital (UITD)<!-- /dataton -->. **Aprueba:** <!-- dataton:valor areas.aprobacion -->Dirección de Innovación y Ciudad Inteligente (DICI)<!-- /dataton -->.
+
+## Matriz de responsabilidades (RACI)
+
+R = hace el trabajo; A = responde por el resultado (una sola unidad); C = se le consulta; I = se le informa.
+
+<!-- dataton:raci -->
+| Actividad | R (hace) | A (responde) | C (consultado) | I (informado) |
+|---|---|---|---|---|
+| Convocatoria, apertura, comunidad y presentación | UCILU | DICI | UITD | SMCI |
+| Paquetes de datos, entorno de trabajo y medición antes/después | UITD | DICI | Responsables del dato | UCILU |
+| Responsabilidad sobre cada dato | Secretaría o unidad productora (D1: SMCI por medio de la DICI y la UITD; D5: DEDH) | Secretaría responsable del dato | UITD | UCILU |
+| Validación o rechazo de cada mejora | Responsable del dato | Responsable del dato | UITD | UCILU y el equipo |
+| Revisión de las fichas de indicadores antes de cualquier uso oficial | UIIEM | UIIEM | Responsables del dato | DICI |
+| Reglas de uso, licencias y privacidad | DAJ con la UITD | DAJ | DT | DICI |
+| Revisión técnica y entorno seguro | DT | DT | UITD | DICI |
+| Valoración de las entregas | Jurado | DICI | UCILU | Equipos |
+| Publicación de repositorios y de datos liberados | UITD | DICI | DAJ y DT | UCILU |
+| Respuesta a un incidente con datos personales | UITD | DICI | DAJ y DT | Responsable del dato |
+<!-- /dataton -->
+
+> La asignación formal debe validarse internamente en la institución.
 
 ## Roles en esta edición
 
@@ -58,8 +80,9 @@ Todo repositorio nace privado. Solo pasa a público con aprobación explícita, 
 
 | Decisión | Quién propone | Quién decide | Dónde queda registrada |
 |---|---|---|---|
-| Aceptar o rechazar una mejora | Equipo participante | Responsable del dato | Incidencia **Solicitud de validación** y acta de validación |
-| Publicar un dato interno | Organización o responsable del dato | Responsable del dato, con revisión de privacidad | Incidencia **Solicitud de liberación de datos** y `liberacion.yml` del paquete |
-| Cambiar la visibilidad de un repositorio | Organización | Autoridad que aprueba la edición | Registro de la edición |
-| Elegir licencias | Organización | Dirección jurídica | `LICENSE` y `LICENSE-DATOS.md` |
-| Cambiar fechas o pesos | Organización | Autoridad que aprueba la edición | `edicion/edicion.yml` (historial de Git) |
+| Aceptar o rechazar una mejora | Equipo participante | Responsable del dato | Incidencia **Solicitud de validación** y [acta de validación](evaluacion/acta-validacion.md) |
+| Publicar un derivado de un dato interno | Organización o responsable del dato | Responsable del dato, con la revisión jurídica y de tecnología | Incidencia **Solicitud de liberación de datos** y `liberacion.yml` del paquete |
+| Cambiar la visibilidad de un repositorio | Organización | Unidad que aprueba la edición | Registro de la edición |
+| Elegir licencias | Organización | Área jurídica | `LICENSE` y `LICENSE-DATOS.md` |
+| Cambiar fechas, pesos o responsables | Organización | Unidad que aprueba la edición | `edicion/edicion.yml` (historial de Git) |
+| Valorar las entregas | Jurado | Jurado | [Hoja del jurado](evaluacion/hoja-jurado.md) |
