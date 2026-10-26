@@ -1,0 +1,127 @@
+{
+  "paquete": "transversal",
+  "fecha": "2026-10-26",
+  "herramienta": "dataton 0.1.0",
+  "nivel_propuesto": 1,
+  "nombre_nivel": "Identificado",
+  "aviso": "Propuesta basada en criterios verificables. La deciden el jurado y el responsable del dato. Los niveles 6 y 7 requieren revisión humana.",
+  "niveles": [
+    {
+      "nivel": 0,
+      "nombre": "Desconocido",
+      "revision_humana": false,
+      "cumplidos": [],
+      "faltantes": []
+    },
+    {
+      "nivel": 1,
+      "nombre": "Identificado",
+      "revision_humana": false,
+      "cumplidos": [
+        {
+          "id": "fuente_localizada",
+          "descripcion": "datapackage.json tiene al menos un recurso, o procedencia.md declara la fuente",
+          "detalle": "2 recursos; fuente en procedencia.md: no"
+        }
+      ],
+      "faltantes": []
+    },
+    {
+      "nivel": 2,
+      "nombre": "Documentado",
+      "revision_humana": false,
+      "cumplidos": [],
+      "faltantes": [
+        {
+          "id": "diccionario_descrito",
+          "descripcion": "Al menos el umbral de documentación de las columnas tiene descripción en diccionario.csv",
+          "detalle": "no medible"
+        },
+        {
+          "id": "periodicidad_conocida",
+          "descripcion": "procedencia.md declara una periodicidad (no vacía, ni 'desconocida', ni 'por confirmar')",
+          "detalle": "no declarada"
+        },
+        {
+          "id": "responsable_conocido",
+          "descripcion": "procedencia.md declara un responsable del dato (no vacío, ni 'por confirmar')",
+          "detalle": "no declarado o por confirmar"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "nombre": "Depurado",
+      "revision_humana": false,
+      "cumplidos": [],
+      "faltantes": [
+        {
+          "id": "completitud_minima",
+          "descripcion": "Cada tabla alcanza el umbral de completitud",
+          "detalle": "no hay tablas que medir"
+        },
+        {
+          "id": "validez_minima",
+          "descripcion": "Cada tabla tiene reglas de validez y alcanza el umbral",
+          "detalle": "no hay tablas que medir"
+        },
+        {
+          "id": "unicidad_clave",
+          "descripcion": "Cada tabla tiene una clave declarada, sin duplicados",
+          "detalle": "no hay tablas"
+        },
+        {
+          "id": "consistencia_minima",
+          "descripcion": "Cada tabla tiene reglas de consistencia y alcanza el umbral",
+          "detalle": "no hay tablas que medir"
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "nombre": "Conectable",
+      "revision_humana": false,
+      "cumplidos": [],
+      "faltantes": [
+        {
+          "id": "territorio_o_vinculo",
+          "descripcion": "Cada tabla alcanza el umbral de territorialidad, o reglas-calidad.yml declara un vínculo con otra tabla por una clave",
+          "detalle": "no hay tablas que medir"
+        }
+      ]
+    },
+    {
+      "nivel": 5,
+      "nombre": "Reutilizable",
+      "revision_humana": false,
+      "cumplidos": [
+        {
+          "id": "reglas_de_uso",
+          "descripcion": "Existe reglas-de-uso.md",
+          "detalle": ""
+        }
+      ],
+      "faltantes": [
+        {
+          "id": "formato_abierto_y_licencia",
+          "descripcion": "Todos los recursos están en formato abierto y hay licencia o reglas de uso declaradas",
+          "detalle": "accesibilidad 0.0 %"
+        }
+      ]
+    },
+    {
+      "nivel": 6,
+      "nombre": "Accionable",
+      "revision_humana": true,
+      "cumplidos": [],
+      "faltantes": []
+    },
+    {
+      "nivel": 7,
+      "nombre": "Listo para Ciudad Inteligente",
+      "revision_humana": true,
+      "cumplidos": [],
+      "faltantes": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "herramienta": "dataton 0.1.0",
+  "fecha": "2026-10-26",
+  "paquete": "transversal",
+  "reglas": {
+    "archivo": null,
+    "sha256": null
+  },
+  "aviso": "Estas mediciones son evidencia para el jurado y el responsable del dato; no son un puntaje.",
+  "recursos": {},
+  "paquete_dimensiones": {
+    "documentacion": {
+      "valor": null,
+      "medible": false,
+      "motivo": "No hay tablas que medir"
+    },
+    "trazabilidad": {
+      "valor": 0.6667,
+      "numerador": 2,
+      "denominador": 3,
+      "componentes": {
+        "procedencia.md existe": true,
+        "checksums.sha256 existe": true,
+        "registro de cambios (sección '## …cambios…' en procedencia.md o archivo registro-cambios.md)": false
+      }
+    },
+    "accesibilidad": {
+      "valor": 0.0,
+      "componentes": {
+        "recursos en formato abierto": {
+          "valor": null,
+          "numerador": 0,
+          "denominador": 0
+        },
+        "licencia o reglas de uso declaradas en datapackage.json": false
+      }
+    }
+  },
+  "revision_humana": {
+    "exactitud": "No se mide de forma automática: requiere comparar con la realidad o con otra fuente de referencia. Lo valora el jurado o el responsable del dato.",
+    "oportunidad": "No se mide de forma automática: depende de la fecha del fenómeno y del uso previsto. Lo valora el jurado o el responsable del dato."
+  }
+}

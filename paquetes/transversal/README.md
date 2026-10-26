@@ -16,6 +16,7 @@ Los archivos quedan en `paquetes/transversal/data/raw/`, que Git ignora.
 | Documento | Contenido |
 |---|---|
 | [`checksums.sha256`](checksums.sha256) | Sumas esperadas |
+| [`diccionario.csv`](diccionario.csv) | Propiedades de cada capa |
 | [`procedencia.md`](procedencia.md) | Origen de las capas |
 | [`reglas-de-uso.md`](reglas-de-uso.md) | Atribución que exige cada licencia |
 | [`problemas-observados.md`](problemas-observados.md) | Observaciones, sin corregir |

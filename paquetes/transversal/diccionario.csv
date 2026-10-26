@@ -1,0 +1,7 @@
+archivo,columna,encabezado_literal,tipo,tipo_inferido,descripcion,unidad,dominio,observaciones
+data/raw/geoBoundaries-BOL-ADM3.geojson,shapeName,shapeName,,,,,,Propiedad leída del archivo descargado el 26/10/2026; descripción por completar
+data/raw/geoBoundaries-BOL-ADM3.geojson,shapeISO,shapeISO,,,,,,Propiedad leída del archivo descargado el 26/10/2026; descripción por completar
+data/raw/geoBoundaries-BOL-ADM3.geojson,shapeID,shapeID,,,,,,Propiedad leída del archivo descargado el 26/10/2026; descripción por completar
+data/raw/geoBoundaries-BOL-ADM3.geojson,shapeGroup,shapeGroup,,,,,,Propiedad leída del archivo descargado el 26/10/2026; descripción por completar
+data/raw/geoBoundaries-BOL-ADM3.geojson,shapeType,shapeType,,,,,,Propiedad leída del archivo descargado el 26/10/2026; descripción por completar
+data/raw/bol_ppp_2020.tif,(ráster),(ráster),,,Población estimada por celda de la cuadrícula,personas,,Ráster de una sola banda: no tiene columnas

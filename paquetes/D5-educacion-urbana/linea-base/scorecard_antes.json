@@ -1,0 +1,116 @@
+{
+  "herramienta": "dataton 0.1.0",
+  "fecha": "2026-10-26",
+  "paquete": "D5-educacion-urbana",
+  "reglas": {
+    "archivo": null,
+    "sha256": null
+  },
+  "aviso": "Estas mediciones son evidencia para el jurado y el responsable del dato; no son un puntaje.",
+  "recursos": {
+    "data/raw/me_establecimientos_educativos2016.csv": {
+      "filas": 15749,
+      "columnas": 9,
+      "completitud": {
+        "valor": 0.9748,
+        "numerador": 138164,
+        "denominador": 141741,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 15749,
+        "denominador": 15749,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 9
+      }
+    },
+    "data/raw/me_establecimientos_educativos2016.geojson": {
+      "filas": 15749,
+      "columnas": 9,
+      "completitud": {
+        "valor": 0.9748,
+        "numerador": 138164,
+        "denominador": 141741,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 15749,
+        "denominador": 15749,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 9
+      }
+    }
+  },
+  "paquete_dimensiones": {
+    "documentacion": {
+      "valor": 0.0,
+      "numerador": 0,
+      "denominador": 18
+    },
+    "trazabilidad": {
+      "valor": 0.6667,
+      "numerador": 2,
+      "denominador": 3,
+      "componentes": {
+        "procedencia.md existe": true,
+        "checksums.sha256 existe": true,
+        "registro de cambios (sección '## …cambios…' en procedencia.md o archivo registro-cambios.md)": false
+      }
+    },
+    "accesibilidad": {
+      "valor": 1.0,
+      "componentes": {
+        "recursos en formato abierto": {
+          "valor": 1.0,
+          "numerador": 4,
+          "denominador": 4
+        },
+        "licencia o reglas de uso declaradas en datapackage.json": true
+      }
+    }
+  },
+  "revision_humana": {
+    "exactitud": "No se mide de forma automática: requiere comparar con la realidad o con otra fuente de referencia. Lo valora el jurado o el responsable del dato.",
+    "oportunidad": "No se mide de forma automática: depende de la fecha del fenómeno y del uso previsto. Lo valora el jurado o el responsable del dato."
+  }
+}

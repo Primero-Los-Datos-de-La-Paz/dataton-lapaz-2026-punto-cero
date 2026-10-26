@@ -1,0 +1,476 @@
+{
+  "herramienta": "dataton 0.1.0",
+  "fecha": "2026-10-26",
+  "paquete": "D1-base-digital",
+  "reglas": {
+    "archivo": null,
+    "sha256": null
+  },
+  "aviso": "Estas mediciones son evidencia para el jurado y el responsable del dato; no son un puntaje.",
+  "recursos": {
+    "data/raw/ciudadania-digital/aprobaciones_por_dia_exitosas.csv": {
+      "filas": 2984,
+      "columnas": 3,
+      "completitud": {
+        "valor": 1.0,
+        "numerador": 8952,
+        "denominador": 8952,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 2984,
+        "denominador": 2984,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 3
+      }
+    },
+    "data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2.csv": {
+      "filas": 8301,
+      "columnas": 3,
+      "completitud": {
+        "valor": 1.0,
+        "numerador": 24903,
+        "denominador": 24903,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 8301,
+        "denominador": 8301,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 3
+      }
+    },
+    "data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2_x_sistema_year.csv": {
+      "filas": 64,
+      "columnas": 3,
+      "completitud": {
+        "valor": 1.0,
+        "numerador": 192,
+        "denominador": 192,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 64,
+        "denominador": 64,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 3
+      }
+    },
+    "data/raw/ciudadania-digital/ciudadanos_por_dia_que_aprueban.csv": {
+      "filas": 100,
+      "columnas": 3,
+      "completitud": {
+        "valor": 1.0,
+        "numerador": 300,
+        "denominador": 300,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 100,
+        "denominador": 100,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 3
+      }
+    },
+    "data/raw/ciudadania-digital/cuentas_activadas_entidad.csv": {
+      "filas": 2785,
+      "columnas": 3,
+      "completitud": {
+        "valor": 0.9989,
+        "numerador": 8346,
+        "denominador": 8355,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 2785,
+        "denominador": 2785,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 3
+      }
+    },
+    "data/raw/ciudadania-digital/operadores_registro_entidad-1.csv": {
+      "filas": 14,
+      "columnas": 2,
+      "completitud": {
+        "valor": 1.0,
+        "numerador": 28,
+        "denominador": 28,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 14,
+        "denominador": 14,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 2
+      }
+    },
+    "data/raw/ciudadania-digital/preregistros_portal_aplicacion_v1.csv": {
+      "filas": 886,
+      "columnas": 4,
+      "completitud": {
+        "valor": 1.0,
+        "numerador": 3544,
+        "denominador": 3544,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 886,
+        "denominador": 886,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 4
+      }
+    },
+    "data/raw/ciudadania-digital/preregistros_portal_aplicacion_v2.csv": {
+      "filas": 429,
+      "columnas": 4,
+      "completitud": {
+        "valor": 1.0,
+        "numerador": 1716,
+        "denominador": 1716,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 429,
+        "denominador": 429,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 4
+      }
+    },
+    "data/raw/ciudadania-digital/registros_firmados.csv": {
+      "filas": 776,
+      "columnas": 2,
+      "completitud": {
+        "valor": 1.0,
+        "numerador": 1552,
+        "denominador": 1552,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 776,
+        "denominador": 776,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 2
+      }
+    },
+    "data/raw/distribucion-de-lineas-telefonicas-fijas-en-servicio.csv": {
+      "filas": 11,
+      "columnas": 22,
+      "completitud": {
+        "valor": 0.9091,
+        "numerador": 220,
+        "denominador": 242,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 11,
+        "denominador": 11,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 22
+      }
+    },
+    "data/raw/localidades_fo_2020.csv": {
+      "filas": 218,
+      "columnas": 6,
+      "completitud": {
+        "valor": 0.8448,
+        "numerador": 1105,
+        "denominador": 1308,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 218,
+        "denominador": 218,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 6
+      }
+    },
+    "data/raw/localidades_kioscos_electronicos_2020.csv": {
+      "filas": 200,
+      "columnas": 5,
+      "completitud": {
+        "valor": 1.0,
+        "numerador": 1000,
+        "denominador": 1000,
+        "campos": "todas las columnas"
+      },
+      "validez": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de validez declaradas"
+      },
+      "unicidad": {
+        "valor": 1.0,
+        "numerador": 200,
+        "denominador": 200,
+        "clave": "sin clave declarada: se cuentan filas idénticas"
+      },
+      "consistencia": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay reglas de consistencia declaradas"
+      },
+      "territorialidad": {
+        "valor": null,
+        "medible": false,
+        "motivo": "No hay columnas de coordenadas ni recuadro territorial declarados"
+      },
+      "documentacion": {
+        "valor": 0.0,
+        "numerador": 0,
+        "denominador": 5
+      }
+    }
+  },
+  "paquete_dimensiones": {
+    "documentacion": {
+      "valor": 0.0,
+      "numerador": 0,
+      "denominador": 60
+    },
+    "trazabilidad": {
+      "valor": 0.6667,
+      "numerador": 2,
+      "denominador": 3,
+      "componentes": {
+        "procedencia.md existe": true,
+        "checksums.sha256 existe": true,
+        "registro de cambios (sección '## …cambios…' en procedencia.md o archivo registro-cambios.md)": false
+      }
+    },
+    "accesibilidad": {
+      "valor": 1.0,
+      "componentes": {
+        "recursos en formato abierto": {
+          "valor": 1.0,
+          "numerador": 12,
+          "denominador": 12
+        },
+        "licencia o reglas de uso declaradas en datapackage.json": true
+      }
+    }
+  },
+  "revision_humana": {
+    "exactitud": "No se mide de forma automática: requiere comparar con la realidad o con otra fuente de referencia. Lo valora el jurado o el responsable del dato.",
+    "oportunidad": "No se mide de forma automática: depende de la fecha del fenómeno y del uso previsto. Lo valora el jurado o el responsable del dato."
+  }
+}

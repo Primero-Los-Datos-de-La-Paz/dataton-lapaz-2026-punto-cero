@@ -1,0 +1,126 @@
+{
+  "paquete": "D1-base-digital",
+  "fecha": "2026-10-26",
+  "herramienta": "dataton 0.1.0",
+  "nivel_propuesto": 1,
+  "nombre_nivel": "Identificado",
+  "aviso": "Propuesta basada en criterios verificables. La deciden el jurado y el responsable del dato. Los niveles 6 y 7 requieren revisión humana.",
+  "niveles": [
+    {
+      "nivel": 0,
+      "nombre": "Desconocido",
+      "revision_humana": false,
+      "cumplidos": [],
+      "faltantes": []
+    },
+    {
+      "nivel": 1,
+      "nombre": "Identificado",
+      "revision_humana": false,
+      "cumplidos": [
+        {
+          "id": "fuente_localizada",
+          "descripcion": "datapackage.json tiene al menos un recurso, o procedencia.md declara la fuente",
+          "detalle": "12 recursos; fuente en procedencia.md: sí"
+        }
+      ],
+      "faltantes": []
+    },
+    {
+      "nivel": 2,
+      "nombre": "Documentado",
+      "revision_humana": false,
+      "cumplidos": [],
+      "faltantes": [
+        {
+          "id": "diccionario_descrito",
+          "descripcion": "Al menos el umbral de documentación de las columnas tiene descripción en diccionario.csv",
+          "detalle": "0.0 %"
+        },
+        {
+          "id": "periodicidad_conocida",
+          "descripcion": "procedencia.md declara una periodicidad (no vacía, ni 'desconocida', ni 'por confirmar')",
+          "detalle": "no declarada"
+        },
+        {
+          "id": "responsable_conocido",
+          "descripcion": "procedencia.md declara un responsable del dato (no vacío, ni 'por confirmar')",
+          "detalle": "no declarado o por confirmar"
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "nombre": "Depurado",
+      "revision_humana": false,
+      "cumplidos": [],
+      "faltantes": [
+        {
+          "id": "completitud_minima",
+          "descripcion": "Cada tabla alcanza el umbral de completitud",
+          "detalle": "data/raw/localidades_fo_2020.csv: 84.5 %"
+        },
+        {
+          "id": "validez_minima",
+          "descripcion": "Cada tabla tiene reglas de validez y alcanza el umbral",
+          "detalle": "data/raw/ciudadania-digital/aprobaciones_por_dia_exitosas.csv: no medible; data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2.csv: no medible; data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2_x_sistema_year.csv: no medible; data/raw/ciudadania-digital/ciudadanos_por_dia_que_aprueban.csv: no medible; data/raw/ciudadania-digital/cuentas_activadas_entidad.csv: no medible; data/raw/ciudadania-digital/operadores_registro_entidad-1.csv: no medible; data/raw/ciudadania-digital/preregistros_portal_aplicacion_v1.csv: no medible; data/raw/ciudadania-digital/preregistros_portal_aplicacion_v2.csv: no medible; data/raw/ciudadania-digital/registros_firmados.csv: no medible; data/raw/distribucion-de-lineas-telefonicas-fijas-en-servicio.csv: no medible; data/raw/localidades_fo_2020.csv: no medible; data/raw/localidades_kioscos_electronicos_2020.csv: no medible"
+        },
+        {
+          "id": "unicidad_clave",
+          "descripcion": "Cada tabla tiene una clave declarada, sin duplicados",
+          "detalle": "sin clave declarada en: data/raw/ciudadania-digital/aprobaciones_por_dia_exitosas.csv, data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2.csv, data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2_x_sistema_year.csv, data/raw/ciudadania-digital/ciudadanos_por_dia_que_aprueban.csv, data/raw/ciudadania-digital/cuentas_activadas_entidad.csv, data/raw/ciudadania-digital/operadores_registro_entidad-1.csv, data/raw/ciudadania-digital/preregistros_portal_aplicacion_v1.csv, data/raw/ciudadania-digital/preregistros_portal_aplicacion_v2.csv, data/raw/ciudadania-digital/registros_firmados.csv, data/raw/distribucion-de-lineas-telefonicas-fijas-en-servicio.csv, data/raw/localidades_fo_2020.csv, data/raw/localidades_kioscos_electronicos_2020.csv"
+        },
+        {
+          "id": "consistencia_minima",
+          "descripcion": "Cada tabla tiene reglas de consistencia y alcanza el umbral",
+          "detalle": "data/raw/ciudadania-digital/aprobaciones_por_dia_exitosas.csv: no medible; data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2.csv: no medible; data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2_x_sistema_year.csv: no medible; data/raw/ciudadania-digital/ciudadanos_por_dia_que_aprueban.csv: no medible; data/raw/ciudadania-digital/cuentas_activadas_entidad.csv: no medible; data/raw/ciudadania-digital/operadores_registro_entidad-1.csv: no medible; data/raw/ciudadania-digital/preregistros_portal_aplicacion_v1.csv: no medible; data/raw/ciudadania-digital/preregistros_portal_aplicacion_v2.csv: no medible; data/raw/ciudadania-digital/registros_firmados.csv: no medible; data/raw/distribucion-de-lineas-telefonicas-fijas-en-servicio.csv: no medible; data/raw/localidades_fo_2020.csv: no medible; data/raw/localidades_kioscos_electronicos_2020.csv: no medible"
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "nombre": "Conectable",
+      "revision_humana": false,
+      "cumplidos": [],
+      "faltantes": [
+        {
+          "id": "territorio_o_vinculo",
+          "descripcion": "Cada tabla alcanza el umbral de territorialidad, o reglas-calidad.yml declara un vínculo con otra tabla por una clave",
+          "detalle": "data/raw/ciudadania-digital/aprobaciones_por_dia_exitosas.csv: no medible; data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2.csv: no medible; data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2_x_sistema_year.csv: no medible; data/raw/ciudadania-digital/ciudadanos_por_dia_que_aprueban.csv: no medible; data/raw/ciudadania-digital/cuentas_activadas_entidad.csv: no medible; data/raw/ciudadania-digital/operadores_registro_entidad-1.csv: no medible; data/raw/ciudadania-digital/preregistros_portal_aplicacion_v1.csv: no medible; data/raw/ciudadania-digital/preregistros_portal_aplicacion_v2.csv: no medible; data/raw/ciudadania-digital/registros_firmados.csv: no medible; data/raw/distribucion-de-lineas-telefonicas-fijas-en-servicio.csv: no medible; data/raw/localidades_fo_2020.csv: no medible; data/raw/localidades_kioscos_electronicos_2020.csv: no medible"
+        }
+      ]
+    },
+    {
+      "nivel": 5,
+      "nombre": "Reutilizable",
+      "revision_humana": false,
+      "cumplidos": [
+        {
+          "id": "formato_abierto_y_licencia",
+          "descripcion": "Todos los recursos están en formato abierto y hay licencia o reglas de uso declaradas",
+          "detalle": "accesibilidad 100.0 %"
+        },
+        {
+          "id": "reglas_de_uso",
+          "descripcion": "Existe reglas-de-uso.md",
+          "detalle": ""
+        }
+      ],
+      "faltantes": []
+    },
+    {
+      "nivel": 6,
+      "nombre": "Accionable",
+      "revision_humana": true,
+      "cumplidos": [],
+      "faltantes": []
+    },
+    {
+      "nivel": 7,
+      "nombre": "Listo para Ciudad Inteligente",
+      "revision_humana": true,
+      "cumplidos": [],
+      "faltantes": []
+    }
+  ]
+}
