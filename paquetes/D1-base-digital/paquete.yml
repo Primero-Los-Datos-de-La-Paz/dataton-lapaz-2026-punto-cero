@@ -1,0 +1,8 @@
+nombre: d1-base-digital
+titulo: "D1 · Base digital: fichas de indicador y fuentes de contexto"
+descripcion: "Ocho fichas de indicador vacías y fuentes públicas de contexto descargadas de datos.gob.bo."
+licencias:
+  - {name: "varias", title: "Licencia por recurso: ver reglas-de-uso.md"}
+fuentes:
+  - {title: "Portal de Datos Abiertos de Bolivia", path: "https://datos.gob.bo"}
+palabras_clave: [conectividad, gobierno electrónico, U4SSC, SMART]

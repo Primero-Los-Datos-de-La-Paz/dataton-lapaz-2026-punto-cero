@@ -1,0 +1,375 @@
+{
+  "profile": "data-package",
+  "name": "d3-oportunidades-bienestar",
+  "title": "D3 · Matriz de indicadores estructurales y Censo 2012 por municipio (mapeo preliminar)",
+  "description": "Matriz de 32 indicadores para completar y una fuente pública de contexto (INE, Censo 2012). Mapeo preliminar: no se valida en 2026.",
+  "version": "0.1.0",
+  "licenses": [
+    {
+      "name": "varias",
+      "title": "Licencia por recurso: ver reglas-de-uso.md"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Instituto Nacional de Estadística (INE), vía datos.gob.bo",
+      "path": "https://datos.gob.bo"
+    }
+  ],
+  "contributors": [],
+  "keywords": [
+    "U4SSC",
+    "estructurales",
+    "censo"
+  ],
+  "resources": [
+    {
+      "name": "data-raw-indicadores_municipios_cpv-2012_cod.csv",
+      "path": "data/raw/indicadores_municipios_cpv-2012_cod.csv",
+      "format": "csv",
+      "bytes": 120608,
+      "hash": "sha256:c4f262086e2e3479f76ea8bc16606ef7427fcf5057875b22c00d02cbe8969bb8",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "cod.mun",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "departamento_y_municipio",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "t_2001",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "h_01",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "m_01",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "t_2012",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "h_12",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "m_12",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "tmn_2001_2012(%)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "tac_ 2001_2012(%)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "ind_mas",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "urbana",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "rural",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "pob_insrc_%",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "pob_ci_%",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "t_taf>15",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "h_>15",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "m_>15",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "t_ae(6_19)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "h_ae(6_19)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "m_ae(6_19)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "nin_(ni>19)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "prim_(ni>19)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "se_(ni>19)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "sup_(ni>19)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "ins_(ni>19)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "otro_(ni>19)",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "t_aest",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "h_aest",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "m_aest",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "est_sal_ultpar",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "dom_ultpar",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "otro_ultpar",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "sinesp_ultpar",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "matriz-indicadores.csv",
+      "path": "matriz-indicadores.csv",
+      "format": "csv",
+      "bytes": 2720,
+      "hash": "sha256:6db667e5accbe8bfcfa505906a904c08d9d110a057ced30006fd574f98a8334c",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "categoria",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "tipo",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "nombre",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "fuentes_catalogo",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "fuente_candidata",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "institucion_productora",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "area_responsable",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "definicion",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "numerador",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "denominador",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "series_disponibles",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "periodo",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "periodicidad",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "nivel_territorial",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "brecha",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "evidencia",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "nivel_preparacion_0_7",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "observaciones",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    }
+  ]
+}

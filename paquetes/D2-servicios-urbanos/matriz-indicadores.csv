@@ -1,0 +1,13 @@
+id,categoria,tipo,nombre,fuentes_catalogo,fuente_candidata,institucion_productora,area_responsable,definicion,numerador,denominador,series_disponibles,periodo,periodicidad,nivel_territorial,brecha,evidencia,nivel_preparacion_0_7,observaciones,estado_datos_servicio
+D2-01,Electricidad,SMART,Medidores de electricidad inteligentes,,,,,,,,,,,,,,,,
+D2-02,Electricidad,SMART,Monitoreo del suministro eléctrico,,,,,,,,,,,,,,,,
+D2-03,Electricidad,SMART,Penetración de la respuesta a la demanda,,,,,,,,,,,,,,,,
+D2-04,Agua y saneamiento,SMART,Monitoreo del suministro de agua,,,,,,,,,,,,,,,,
+D2-05,Agua y saneamiento,SMART,Medidores de agua inteligentes,,,,,,,,,,,,,,,,
+D2-06,Drenaje,SMART,Monitoreo del drenaje y aguas pluviales,,,,,,,,,,,,,,,,
+D2-07,Transporte,SMART,Información dinámica del transporte público,,,,,,,,,,,,,,,,
+D2-08,Transporte,SMART,Monitoreo del tráfico,,,,,,,,,,,,,,,,
+D2-09,Transporte,SMART,Control de intersecciones inteligentes,,,,,,,,,,,,,,,,
+D2-10,Edificios,SMART,Gestión integrada de edificios públicos,,,,,,,,,,,,,,,,
+D2-11,Educación,SMART,Acceso TIC a las escuelas,F033;F010;F011,,,,,,,,,,,,,,,
+D2-12,Salud,SMART,Registros médicos electrónicos,,,,,,,,,,,,,,,,

@@ -1,0 +1,2 @@
+fuente_catalogo,nombre,owner,uso_en_la_ficha,formato,periodicidad,cobertura_temporal,cobertura_territorial,acceso,estado_verificacion,observaciones
+F026,OpenStreetMap,Personas colaboradoras de OpenStreetMap,"Por verificar: si contiene bibliotecas, centros culturales o espacios deportivos en La Paz",OSM;PBF,Continua,Continua,Mundial,API pública (ODbL),VERIFICADO,

@@ -43,7 +43,7 @@ En este catálogo, los conjuntos con licencia "Otra (Abierta)" se rigen por esta
 
 ## Qué se copió y qué no
 
-**Copiado** (8,1 MB en total; cada archivo con su suma SHA-256 en `data/raw/checksums.sha256`, y la URL exacta, la fecha y la versión en `data/raw/procedencia_descargas.csv`):
+**Copiado** (8,1 MB en total; cada archivo con su suma SHA-256 en el `checksums.sha256` del paquete, y la URL exacta, la fecha y la versión en su `procedencia_descargas.csv`):
 
 | Paquete | Archivos | Fuentes |
 |---|---|---|

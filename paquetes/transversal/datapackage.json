@@ -1,0 +1,24 @@
+{
+  "profile": "data-package",
+  "name": "transversal-capas-de-referencia",
+  "title": "Capas de referencia transversales (descarga por script)",
+  "description": "Límites municipales y población en cuadrícula. Los archivos no se guardan en el repositorio: se bajan con catalogo/descargar.py.",
+  "version": "0.1.0",
+  "resources": [
+    {
+      "name": "geoboundaries-bol-adm3",
+      "path": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BOL/ADM3/geoBoundaries-BOL-ADM3.geojson",
+      "format": "geojson",
+      "bytes": 33234141,
+      "hash": "sha256:35bf9e07686f94dddb7d9c592aed36c8d981bafa91df12ddd7295142cbdc6aa2",
+      "licenses": [{"name": "public-domain", "title": "Public Domain (según geoBoundaries)"}]
+    },
+    {
+      "name": "worldpop-bol-2020",
+      "path": "https://data.worldpop.org/GIS/Population/Global_2000_2020/2020/BOL/bol_ppp_2020.tif",
+      "format": "tif",
+      "bytes": 584944654,
+      "licenses": [{"name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0", "path": "https://creativecommons.org/licenses/by/4.0/"}]
+    }
+  ]
+}

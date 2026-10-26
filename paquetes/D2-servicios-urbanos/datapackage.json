@@ -1,0 +1,243 @@
+{
+  "profile": "data-package",
+  "name": "d2-servicios-urbanos",
+  "title": "D2 · Matriz de indicadores y arquitectura de datos (mapeo preliminar)",
+  "description": "Matriz de 12 indicadores y plantilla de arquitectura de datos para completar. Mapeo preliminar: no se valida en 2026.",
+  "version": "0.1.0",
+  "licenses": [
+    {
+      "name": "por-definir",
+      "title": "Licencia de los aportes: decisión pendiente de la DAJ"
+    }
+  ],
+  "sources": [],
+  "contributors": [],
+  "keywords": [
+    "U4SSC",
+    "mapeo de fuentes"
+  ],
+  "resources": [
+    {
+      "name": "arquitectura-datos.csv",
+      "path": "arquitectura-datos.csv",
+      "format": "csv",
+      "bytes": 149,
+      "hash": "sha256:99b08913bb704ae469bf9bcc49f5aaf3589e61f615556a1249babaa194aac217",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "servicio",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "activo",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "sistema_sensor",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "dato",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "responsable",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "frecuencia",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "decision",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "interoperabilidad",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "estado_datos_servicio",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "fuentes_catalogo",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "evidencia",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "observaciones",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "matriz-indicadores.csv",
+      "path": "matriz-indicadores.csv",
+      "format": "csv",
+      "bytes": 1191,
+      "hash": "sha256:10b6d21a3b608254efc60e2e29011643a95a450da2fbfd9d7ebbc410d3fda10c",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "categoria",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "tipo",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "nombre",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "fuentes_catalogo",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "fuente_candidata",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "institucion_productora",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "area_responsable",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "definicion",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "numerador",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "denominador",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "series_disponibles",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "periodo",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "periodicidad",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "nivel_territorial",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "brecha",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "evidencia",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "nivel_preparacion_0_7",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "observaciones",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "estado_datos_servicio",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    }
+  ]
+}

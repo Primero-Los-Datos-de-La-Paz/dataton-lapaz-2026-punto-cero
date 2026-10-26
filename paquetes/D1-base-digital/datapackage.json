@@ -1,0 +1,568 @@
+{
+  "profile": "data-package",
+  "name": "d1-base-digital",
+  "title": "D1 · Base digital: fichas de indicador y fuentes de contexto",
+  "description": "Ocho fichas de indicador vacías y fuentes públicas de contexto descargadas de datos.gob.bo.",
+  "version": "0.1.0",
+  "licenses": [
+    {
+      "name": "varias",
+      "title": "Licencia por recurso: ver reglas-de-uso.md"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Portal de Datos Abiertos de Bolivia",
+      "path": "https://datos.gob.bo"
+    }
+  ],
+  "contributors": [],
+  "keywords": [
+    "conectividad",
+    "gobierno electrónico",
+    "U4SSC",
+    "SMART"
+  ],
+  "resources": [
+    {
+      "name": "data-raw-ciudadania-digital-aprobaciones_por_dia_exitosas.csv",
+      "path": "data/raw/ciudadania-digital/aprobaciones_por_dia_exitosas.csv",
+      "format": "csv",
+      "bytes": 167141,
+      "hash": "sha256:f8c652376bdbdf60d50ee2faf0c5cbee59e18d0211d0d2fd6626a9452756fad8",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "|"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "fecha",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "sistema",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cantidad aprobados",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-ciudadania-digital-autenticaciones_realizadas_exito_v2.csv",
+      "path": "data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2.csv",
+      "format": "csv",
+      "bytes": 361035,
+      "hash": "sha256:87965237c061f030c9da6a8d721d30815d86298c15b6850100e7f01236fb1676",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "sistema",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "fecha",
+            "type": "date",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cantidad",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-ciudadania-digital-autenticaciones_realizadas_exito_v2_x_sistema_year.csv",
+      "path": "data/raw/ciudadania-digital/autenticaciones_realizadas_exito_v2_x_sistema_year.csv",
+      "format": "csv",
+      "bytes": 2546,
+      "hash": "sha256:a1e352434ea45ee48e7d65f7655e49b0d62026327ecd2d2b91072ea8e85d305b",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "sistema",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "anio",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cantidad",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-ciudadania-digital-ciudadanos_por_dia_que_aprueban.csv",
+      "path": "data/raw/ciudadania-digital/ciudadanos_por_dia_que_aprueban.csv",
+      "format": "csv",
+      "bytes": 4934,
+      "hash": "sha256:45dfca3be55cc071be70d2af39d56ec6a7051d69e41b6daaa8c35d5ac717dedf",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "|"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "nombre",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "fecha",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "numero",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-ciudadania-digital-cuentas_activadas_entidad.csv",
+      "path": "data/raw/ciudadania-digital/cuentas_activadas_entidad.csv",
+      "format": "csv",
+      "bytes": 55375,
+      "hash": "sha256:7f2a1ec0e7dacb153aff5f4c2be168686d5427fc66d0e58865cf7434bbe6727b",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "|"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "nombre",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "fecha",
+            "type": "date",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "count",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-ciudadania-digital-operadores_registro_entidad-1.csv",
+      "path": "data/raw/ciudadania-digital/operadores_registro_entidad-1.csv",
+      "format": "csv",
+      "bytes": 676,
+      "hash": "sha256:55f7edf15fd0f261dc3ea14a925e0756fbf35a95103a2f65d7c066418eeaad2d",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "|"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "nombre",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cantidad_operadores",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-ciudadania-digital-preregistros_portal_aplicacion_v1.csv",
+      "path": "data/raw/ciudadania-digital/preregistros_portal_aplicacion_v1.csv",
+      "format": "csv",
+      "bytes": 17594,
+      "hash": "sha256:6ca9b928d24e7628d829bd91e2c89af5213f9660bb5d2e3702f551087270e0b6",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "|"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "fecha_creacion",
+            "type": "date",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "total",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cantidad_movil",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cantidad_web",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-ciudadania-digital-preregistros_portal_aplicacion_v2.csv",
+      "path": "data/raw/ciudadania-digital/preregistros_portal_aplicacion_v2.csv",
+      "format": "csv",
+      "bytes": 8813,
+      "hash": "sha256:6b8286252dc8387f9141e9ea1fa456dda56d83b02c403f5cfd4e8877bc7258fc",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "|"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "fecha_creacion",
+            "type": "date",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "total",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cantidad_movil",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cantidad_web",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-ciudadania-digital-registros_firmados.csv",
+      "path": "data/raw/ciudadania-digital/registros_firmados.csv",
+      "format": "csv",
+      "bytes": 10984,
+      "hash": "sha256:a6bf2848adc22a4859cf982486ab7c36cdb8987d42d0a25b2bbd57d418964653",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "|"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "fecha",
+            "type": "date",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "count",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-distribucion-de-lineas-telefonicas-fijas-en-servicio.csv",
+      "path": "data/raw/distribucion-de-lineas-telefonicas-fijas-en-servicio.csv",
+      "format": "csv",
+      "bytes": 5450,
+      "hash": "sha256:ea5ec393b7422bee5c067f53d4af7ac613b9fd1aa0fb235cc5d7a00edff01b18",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": "\t"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "DESCRIPCION",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "1996",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "1997",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "1998",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "1999",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2000",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2001",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2002",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2003",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2004",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2005",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2006",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2007",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2008",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2009",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2010",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2011",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2012",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2013",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2014",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2015",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "2016",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-localidades_fo_2020.csv",
+      "path": "data/raw/localidades_fo_2020.csv",
+      "format": "csv",
+      "bytes": 10497,
+      "hash": "sha256:48575b4fc8c59f0026878179369cc9877353121d72c5364b773cdc05a935a66b",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "N",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "Departamento",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "Provincia",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "Municipio",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "Localidad",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "Observaciones",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-localidades_kioscos_electronicos_2020.csv",
+      "path": "data/raw/localidades_kioscos_electronicos_2020.csv",
+      "format": "csv",
+      "bytes": 9026,
+      "hash": "sha256:bcec6c794fc13f67556bd80b425074fdbedd3c3e71942971710f3ae3473818f1",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "N",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "Departamento",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "Provincia",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "Municipio",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "Localidad",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    }
+  ]
+}

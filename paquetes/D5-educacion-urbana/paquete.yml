@@ -1,0 +1,8 @@
+nombre: d5-educacion-urbana-publico
+titulo: "D5 · Educación urbana: fuentes públicas e inventarios de las fichas 5.2 y 5.3"
+descripcion: "Registro nacional de establecimientos educativos 2016 e inventarios de fuentes para las fichas 5.2 y 5.3. Sin datos internos."
+licencias:
+  - {name: "varias", title: "Licencia por recurso: ver reglas-de-uso.md"}
+fuentes:
+  - {title: "Ministerio de Educación, vía datos.gob.bo", path: "https://datos.gob.bo"}
+palabras_clave: [educación, establecimientos educativos, oportunidades de aprendizaje]

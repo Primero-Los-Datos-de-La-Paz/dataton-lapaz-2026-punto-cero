@@ -1,0 +1,8 @@
+nombre: d3-oportunidades-bienestar
+titulo: "D3 · Matriz de indicadores estructurales y Censo 2012 por municipio (mapeo preliminar)"
+descripcion: "Matriz de 32 indicadores para completar y una fuente pública de contexto (INE, Censo 2012). Mapeo preliminar: no se valida en 2026."
+licencias:
+  - {name: "varias", title: "Licencia por recurso: ver reglas-de-uso.md"}
+fuentes:
+  - {title: "Instituto Nacional de Estadística (INE), vía datos.gob.bo", path: "https://datos.gob.bo"}
+palabras_clave: [U4SSC, estructurales, censo]

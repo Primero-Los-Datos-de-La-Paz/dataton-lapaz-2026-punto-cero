@@ -1,0 +1,324 @@
+{
+  "profile": "data-package",
+  "name": "d5-educacion-urbana-publico",
+  "title": "D5 · Educación urbana: fuentes públicas e inventarios de las fichas 5.2 y 5.3",
+  "description": "Registro nacional de establecimientos educativos 2016 e inventarios de fuentes para las fichas 5.2 y 5.3. Sin datos internos.",
+  "version": "0.1.0",
+  "licenses": [
+    {
+      "name": "varias",
+      "title": "Licencia por recurso: ver reglas-de-uso.md"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministerio de Educación, vía datos.gob.bo",
+      "path": "https://datos.gob.bo"
+    }
+  ],
+  "contributors": [],
+  "keywords": [
+    "educación",
+    "establecimientos educativos",
+    "oportunidades de aprendizaje"
+  ],
+  "resources": [
+    {
+      "name": "data-raw-me_establecimientos_educativos2016.csv",
+      "path": "data/raw/me_establecimientos_educativos2016.csv",
+      "format": "csv",
+      "bytes": 1701687,
+      "hash": "sha256:4bf934d4b820f82ce2609208f90db9c9ac3fd1364f6b8602eada89b939f0539f",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "departamento",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "distrito",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "zona  ",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "direccion",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "latitud",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "longitud",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "codigo_ue",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "unidad_educativa",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cod_edif_educativo",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "data-raw-me_establecimientos_educativos2016.geojson",
+      "path": "data/raw/me_establecimientos_educativos2016.geojson",
+      "format": "geojson",
+      "bytes": 5670749,
+      "hash": "sha256:21626ebb93a75e26b15353822b587cfff8756fd0b8f8f98c4542f5f7fcfb675b",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "DEPARTAMEN",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "DISTRITO",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "ZONA",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "DIRECCION",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "latitud",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "longitud",
+            "type": "number",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "CODIGO_UE",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "UNIDAD_EDU",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "COD_EDIF_E",
+            "type": "integer",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ficha-5-2-inventario-fuentes.csv",
+      "path": "ficha-5-2/inventario-fuentes.csv",
+      "format": "csv",
+      "bytes": 1805,
+      "hash": "sha256:398e2bdf8bb95e6431a32809e79b19da95dfb80689a5bff63f84c5847220e9fc",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "fuente_catalogo",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "nombre",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "owner",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "uso_en_la_ficha",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "formato",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "periodicidad",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cobertura_temporal",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cobertura_territorial",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "acceso",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "estado_verificacion",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "observaciones",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ficha-5-3-inventario-fuentes.csv",
+      "path": "ficha-5-3/inventario-fuentes.csv",
+      "format": "csv",
+      "bytes": 366,
+      "hash": "sha256:330dd10aca97e585561a5085e9e4552e1f981236ee11c594a58c2cdb7665e7c0",
+      "encoding": "utf-8",
+      "dialect": {
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "fuente_catalogo",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "nombre",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "owner",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "uso_en_la_ficha",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "formato",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "periodicidad",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cobertura_temporal",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "cobertura_territorial",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "acceso",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "estado_verificacion",
+            "type": "string",
+            "description": "",
+            "x-tipo": "inferido"
+          },
+          {
+            "name": "observaciones",
+            "type": "any",
+            "description": "",
+            "x-tipo": "inferido"
+          }
+        ]
+      }
+    }
+  ]
+}
