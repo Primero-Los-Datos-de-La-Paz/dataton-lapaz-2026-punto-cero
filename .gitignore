@@ -23,3 +23,9 @@ secrets*
 
 # Carpetas de datos internos que nunca deben entrar en un repositorio público
 datos-internos/
+
+# Descargas de catalogo/descargar.py: no se versionan (tamaño o licencia por verificar)
+paquetes/transversal/data/raw/geoBoundaries-BOL-ADM3.geojson
+paquetes/transversal/data/raw/bol_ppp_2020.tif
+paquetes/D5-educacion-urbana/data/raw/mde_Unidades_Educativas_2020.geojson
+*.parcial

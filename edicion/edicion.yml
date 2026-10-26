@@ -177,7 +177,7 @@ rubrica:
     - {id: utilidad, nombre: "Utilidad para decisiones y reutilización", peso: 10}
 
 contacto:
-  buzon_institucional: null   # DECISIÓN PENDIENTE: buzón institucional (no se usan correos ni teléfonos personales)
+  buzon_institucional: "alberto.saavedra@lapaz.bo"   # decisión de la persona usuaria, 26/10/2026
   incidencias: true
   nota: "Después de la clínica de datos, las consultas se atienden por escrito."
 

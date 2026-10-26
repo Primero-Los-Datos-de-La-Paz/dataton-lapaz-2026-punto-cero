@@ -20,7 +20,7 @@ No lo uses. Avisa por el buzón con el nombre del archivo. La organización revo
 ## Contacto
 
 <!-- dataton:contacto -->
-- Buzón institucional: _(por definir en `edicion/edicion.yml`)_
+- Buzón institucional: alberto.saavedra@lapaz.bo
 - Incidencias de este repositorio (pestaña *Issues*), con el formulario que corresponda.
 - Después de la clínica de datos, las consultas se atienden por escrito.
 <!-- /dataton -->
