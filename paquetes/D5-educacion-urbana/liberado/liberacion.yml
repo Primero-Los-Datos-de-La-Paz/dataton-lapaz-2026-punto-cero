@@ -1,0 +1,35 @@
+# Compuerta de liberación de la BD EDU DAT (ver docs/compuerta-de-liberacion.md en el repositorio de la edición).
+# Decisiones de la persona usuaria del 26/10/2026, registradas tal como se tomaron.
+aprobado: true
+
+conjunto: "BD EDU DAT (bd_edu_dat_2026-10-21.xlsx)"
+que_se_libera: derivado-agregado
+clasificacion: interno
+
+agregacion_minima:
+  nivel: unidad-educativa             # una fila por unidad educativa (decisión del 26/10/2026)
+  umbral_conteos_pequenos: null       # decisión del 26/10/2026: no se aplica umbral
+  columnas_incluidas: [todas]         # decisión del 26/10/2026: todas las columnas de las dos hojas
+  columnas_excluidas: []
+
+decision_responsable:
+  unidad: "Dirección de Educación y Desarrollo Humano (DEDH)"
+  decision: aprobada
+  fecha: 2026-10-26
+  referencia_acta: "Autorización de la DEDH comunicada por la persona usuaria en la sesión de construcción, 26/10/2026"
+
+revision_privacidad:
+  verificar_privacidad: sin-hallazgos # python -m dataton verificar-privacidad derivado/ (26/10/2026)
+  metadatos_autor_eliminados: true    # el derivado son CSV generados desde data/interim/, sin metadatos del xlsx
+  exclusiones: []
+  revision_juridica: "No realizada por la DAJ. La persona usuaria asumió la revisión y autorizó publicar (26/10/2026)"
+  revision_tecnologia: "No realizada por la DT. La persona usuaria asumió la revisión y autorizó publicar (26/10/2026)"
+
+licencia: "CC-BY-4.0 (decisión de la persona usuaria, 26/10/2026)"
+script_derivado: scripts/generar_derivado.py
+archivos_publicables:
+  - derivado/bd_edu_dat_relevamiento_ue.csv
+  - derivado/bd_edu_dat_infraestructuras_2024.csv
+  - derivado/diccionario.csv
+  - derivado/README.md
+incidencia: null
